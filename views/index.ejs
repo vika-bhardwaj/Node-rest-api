@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to Zettabyte</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style>
+      table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+      }
+      
+      td, th {
+          border: 1px solid #000000;
+          text-align: left;
+          padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+          background-color: #dddddd;
+      }
+      </style>
+  </head>
+  <body>
+    <h1>Welcome to Zettabyte REST API</h1>
+    
+    <h2>User Route</h2>
+    <table>
+      <tr>
+        <th>Methods</th>
+        <th>Endpoint</th>
+        <th>Remarks</th>
+      </tr>
+      <tr>
+        <td>GET</td>
+        <td>/users</td>
+        <td>Get all users</td>
+      </tr>
+      <tr>
+        <td>GET</td>
+        <td>/users/:id</td>
+        <td>Get single user</td>
+      </tr>
+      <tr>
+        <td>POST</td>
+        <td>/users</td>
+        <td>Add new user</td>
+      </tr>
+      <tr>
+        <td>PUT</td>
+        <td>/users/:id</td>
+        <td>Update user</td>
+      </tr>
+      <tr>
+        <td>DELETE</td>
+        <td>/users/:id</td>
+        <td>Delete user</td>
+      </tr>
+    </table>
+    </br>
+    <h2>Picture Route</h2>
+    <table>
+      <tr>
+        <th>Methods</th>
+        <th>Endpoint</th>
+        <th>Remarks</th>
+      </tr>
+      <tr>
+        <td>GET</td>
+        <td>/pictures</td>
+        <td>Get all pictures</td>
+      </tr>
+      <tr>
+        <td>GET</td>
+        <td>/pictures/:id</td>
+        <td>Get single picture</td>
+      </tr>
+      <tr>
+        <td>POST</td>
+        <td>/pictures</td>
+        <td>Add new picture</td>
+      </tr>
+      <tr>
+        <td>PUT</td>
+        <td>/pictures/:id</td>
+        <td>Update picture info</td>
+      </tr>
+      <tr>
+        <td>DELETE</td>
+        <td>/pictures/:id</td>
+        <td>Delete picture</td>
+      </tr>
+    </table>
+  </body>
+</html>
